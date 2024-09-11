@@ -1,0 +1,49 @@
+.box{
+    min-width: 100%;
+    padding: 20px;
+    background-color: #ffffff21;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-info, .box-data{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.date, .distance, .actions{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.actions{
+    margin-right: -30px;
+}
+
+.actions-btn{
+    margin-left: 8px;
+}
+
+
+.actions-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-size: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.btn-edit, .btn-close{
+    background-image: url(../../images/free-icon-pencil-1046295.png);
+}
+
+.btn-close{
+    background-image: url(../../images/free-icon-crossed-4219073.png);
+}
+

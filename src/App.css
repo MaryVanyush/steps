@@ -1,0 +1,10 @@
+body{
+  background-color: #212223;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
